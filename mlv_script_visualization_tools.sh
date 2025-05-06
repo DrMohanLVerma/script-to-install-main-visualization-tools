@@ -25,12 +25,12 @@ sudo apt-get install xcrysden
 sudo apt-get install jmol
 sudo apt install snapd
 sudo snap install molden
-sudo apt-install avogadro2 
+sudo apt install avogadro
 sudo apt install wine64
 wget https://sf.net/projects/materiappslive/files/Debian/sources/setup.sh
 sudo sh setup.sh
 sudo apt -y install vesta
-
+sudo apt-get install ase
 end=`date +%s`
 echo Execution time was `expr $end - $start` seconds.
 
